@@ -1,5 +1,5 @@
 {
-  "name": "showdown-demo",
+  "name": "markdown-converter",
   "version": "1.0.0",
   "description": "a demo of showdown",
   "main": "index.js",
