@@ -7,9 +7,9 @@ const showdown = require('showdown')
 showdown.setFlavor('github')
 const converter = new showdown.Converter()
 
-const sourcePath = '../pickcle.github.io/_posts'
-
-const publishPath = 'dist'
+const config = require('./config.js')
+const sourcePath = config.MARKDOWN_SOURCE_PATH
+const publishPath = config.PUBLISH_PATH
 
 execSync(`cp index.css ${publishPath}`)
 
