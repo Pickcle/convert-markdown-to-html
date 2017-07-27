@@ -1,6 +1,10 @@
-# showdown-demo
-convert markdown to html
+# convert-markdown-to-html
+convert markdown which is posted to github.io to html
 
 **usage**
-open `config.js` and modify MARKDOWN_SOURCE_PATH  
-run `npm run build`
+
+```js
+import converter from 'convert-markdown-to-html'
+
+converter(path.absolute('./blogs'), path.absolute('./distBlogs'))
+```

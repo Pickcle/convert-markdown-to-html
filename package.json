@@ -1,24 +1,22 @@
 {
-  "name": "markdown-converter",
+  "name": "convert-markdown-to-html",
   "version": "1.0.0",
-  "description": "convert markdown to html",
+  "description": "convert markdown which is posted to github.io to html",
   "main": "index.js",
   "dependencies": {
     "showdown": "^1.7.1"
   },
   "devDependencies": {},
   "scripts": {
-    "build": "node build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pickcle/showdown-demo.git"
+    "url": "git+https://github.com/Pickcle/convert-markdown-to-html.git"
   },
   "author": "Pickcle",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Pickcle/showdown-demo/issues"
+    "url": "https://github.com/Pickcle/convert-markdown-to-html/issues"
   },
-  "homepage": "https://github.com/Pickcle/showdown-demo#readme"
+  "homepage": "https://github.com/Pickcle/convert-markdown-to-html#readme"
 }
